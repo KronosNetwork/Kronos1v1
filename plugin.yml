@@ -1,0 +1,29 @@
+name: Kronos1v1
+api: 3.0.0
+version: 1.0.0
+main: AL3XPI/Kronos1v1
+author: AL3XPI
+description: 1v1 plugin for Kronos Network
+permissions:
+  duel.cmd:
+    description: Permission to all Kronos1v1 commands
+    default: op
+    children:
+      duel.cmd.help:
+        description: Permission for /duel help
+        default: op
+      duel.cmd.create:
+        description: Permission for /duel create
+        default: op
+      duel.cmd.remove:
+        description: Permission for /duel remove
+        default: op
+      duel.cmd.set:
+        description: Permission for /duel set
+        default: op
+      duel.cmd.arenas:
+        description: Permission for /duel arenas
+        default: op
+      duel.cmd.join:
+        description: Permission for /duel join
+        default: true
